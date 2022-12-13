@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Todo-list</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <h1>ToDo-list</h1>
+
+  <!-- Form Container -->
+  <form action="#">
+    <div class="info_task">
+      <input id="description_task" type="text">
+      <label for="done">Done</label>
+      <input type="checkbox" id="done_task" value="done">
+    </div>
+    <a id="add_task"> + </a>
+  </form>
+
+  <!-- Main Container -->
+  <div id="app">
+  </div>
+
+  <!--  -->
+  <script type="module" src="./js/main.js"></script>
+  <script type="module" src="./js/data/entities/Task.js"></script>
+  <script type="module" src="./js/data/Data.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+.info_task {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+}
